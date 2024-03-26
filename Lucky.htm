@@ -1,0 +1,215 @@
+<html>
+<head>
+<style>
+img
+{
+animation:shake 0.5s linear infinite;
+}
+@keyframes shake
+{
+0%
+{
+transform:rotate(-10deg);
+}
+50%
+{
+transform:rotate(10deg);
+}
+</style>
+
+
+<title>welocome  to Lakshman</title>
+</head>
+<body bgcolor="orange">
+<h1><center> PUSHPA-2 LOADING</center><br></h1>
+<marquee bgcolor="white" direaction="right" scrollamount="20" behavior="alternate" speed="50"><font color="Red"><b> KNOWLEDGE IS DIVINE</b></font></marquee><br></br>
+<img src="C:\Users\laksh\OneDrive\Image\Pragati.jpeg" class="d-block w-45" alt=""><br></br>
+
+<font face="times new roman" size="50" color="Green" >WELCOME TO PRAGATI ENGINEERING COLLEGE</font></br>
+
+<h1>LISTS</h1>
+<ul style="list-style-type:square">
+<li>CSE</li>
+<li>ECE</li>
+<li>EEE</li>
+</ul>
+<ol type="i">
+<li>IT</li>
+<li>AIML</li>
+<li>DS</li>
+<br>
+<table border="50%">
+<caption><font color ="blue"><b> Friends are Diamonds</b></font></caption>
+<thead>
+<th>SNO</th>
+<th>NAME</th>
+<th>ROLL NO</th>
+<tbody>
+<tr>
+<td>1</td>
+<td>Lakshman</td>
+<td>LE-5</td>
+</tr>
+<tr>
+<td>2</td>
+<td>Pankaj</td>
+<td>53</td>
+</tr>
+<tr>
+<td>3</td>
+<td>Suresh</td>
+<td>43</td>
+</tr>
+<tr>
+<td>4</td>
+<td>Bhaskar</td>
+<td>54</td>
+</tr>
+<tr>
+<td>5</td>
+<td>Siddu</td>
+<td>34</td>
+</tbody>
+</table>
+</thead><br>
+<img src="C:\Users\laksh\Downloads\July.jpg" alt="Julayi Lakshman" width="300" height="300"> <br>
+<forms>
+<label for="user name">username</label>
+<input type="text" id="username">
+<br>
+<label for="password">password</label>
+<input type="password" id="password"><br>
+<input type="submit" id="submit">
+<br>
+<h1>Radio Buttons </h1>
+<h2>Gender </h2>
+<input type="radio" name="gender" checked="checked"> Male<br>
+<input type="radio" name="gender"> Female
+<br>
+<h1>CheckBoxes</h1>
+<h3>Hobbies</h3>
+<input type="checkbox">Playing<br>
+<input type="checkbox">Eating<br>
+<input type="checkbox">Reading<br>
+<input type="checkbox">Singing<br>
+<h1>Text Area</h1>
+<h2>Address</h2>
+<textarea rows="5" cols="15">
+</textarea><br>
+</forms><br>
+<h1>LANGUAGES</h1>
+<select >
+<option> C</option>
+<option> C++</option>
+<option selected> Python </option>
+<option> Java </option>
+</select><br>
+<h1>FILE UPLOADING</h1>
+<input type="file" name="file">
+<br>
+<h1>BUTTONS</h1>
+<input type="submit" name="submit" value="submit" >
+<input type="reset" name="reset" value="reset">
+<input type="button" name="name" value="click me">
+</option><br>
+<h1>HyperLinks</h1>
+<a href="https://www.google.com">HOME</a></br>
+<a href="https://www.google.com">ABOUT US</a></br>
+<a href="https://www.google.com">CONTACT US</a> </br>
+<video width="400" controls>
+  <source src="mov_bbb.mp4" type="video/mp4">
+  <source src="mov_bbb.ogg" type="video/ogg">
+  Your browser does not support HTML video.
+</video>
+
+<p>
+Video courtesy of 
+<a href="​https:" target="_blank">Big Buck Bunny</a>.
+</p>
+<video width="320" height="240" controls>
+  <source src="movie.mp4" type="video/mp4">
+  <source src="movie.ogg" type="video/ogg">
+  Your browser does not support the video tag.
+</video>
+<div style="text-align:left"> 
+  <button onclick="playPause()">Play/Pause</button> 
+  <button onclick="makeBig()">Big</button>
+  <button onclick="makeSmall()">Small</button>
+  <button onclick="makeNormal()">Normal</button>
+  <br><br>
+  <video id="video1" width="420">
+    <source src="mov_bbb.mp4" type="video/mp4">
+    <source src="mov_bbb.ogg" type="video/ogg">
+    Your browser does not support HTML video.
+  </video>
+</div> 
+
+<script> 
+var myVideo = document.getElementById("video1"); 
+
+function playPause() { 
+  if (myVideo.paused) 
+    myVideo.play(); 
+  else 
+    myVideo.pause(); 
+} 
+
+function makeBig() { 
+    myVideo.width = 560; 
+} 
+
+function makeSmall() { 
+    myVideo.width = 320; 
+} 
+
+function makeNormal() { 
+    myVideo.width = 420; 
+} 
+</script> 
+
+<p>Video courtesy of <a href="https://www.bigbuckbunny.org/" target="_blank">Big Buck Bunny</a>.</p>
+<audio controls>
+  <source src="horse.ogg" type="audio/ogg">
+  <source src="horse.mp3" type="audio/mpeg">
+Your browser does not support the audio element.
+</audio>
+
+<h2>What Can JavaScript Do?</h2>
+
+<p>JavaScript can change HTML attribute values.</p>
+
+<p>In this case JavaScript changes the value of the src (source) attribute of an image.</p>
+
+<button onclick="document.getElementById('myImage').src='pic_bulbon.gif'">Turn on the light</button>
+
+<img id="myImage" src="pic_bulboff.gif" style="width:100px">
+
+<button onclick="document.getElementById('myImage').src='pic_bulboff.gif'">Turn off the light</button>
+
+<script>
+function myFunction() {
+  document.getElementById("demo").innerHTML = "Paragraph changed.";
+}
+</script>
+
+<h2>Demo JavaScript in Head</h2>
+
+<p id="demo">A Paragraph.</p>
+
+<button type="button" onclick="myFunction()">Try it</button>
+<h2>What Can JavaScript Do?</h2>
+
+<p id="demo">JavaScript can change HTML content.</p>
+
+<button type="button" onclick='document.getElementById("demo").innerHTML = "Hello JavaScript!"'>Click Me!</button>
+<p id="demo">JavaScript can change the style of an HTML element.</p>
+
+<button type="button" onclick="document.getElementById('demo').style.fontSize='35px'">Click Me!</button>
+<p id="demo" style="display:none">Hello JavaScript!</p>
+
+<button type="button" onclick="document.getElementById('demo').style.display='block'">Click Me!</button>s
+
+
+
+</body>
+</html>
